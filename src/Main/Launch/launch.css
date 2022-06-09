@@ -1,0 +1,38 @@
+.launch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    max-width: 95vw;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.launch-image {
+    height: 150px;
+    width: 150px;
+    border: none
+}
+
+.launch:hover {
+    border: 1px solid rgb(136, 217, 255);
+}
+
+.launch h1  {
+    color: rgb(157, 157, 157);
+}
+
+.launch h3  {
+    color: grey;
+}
+
+.launch:hover h1 {
+    color:  white;
+}
+
+.launch:hover h3  {
+    color: rgb(202, 202, 202);
+}

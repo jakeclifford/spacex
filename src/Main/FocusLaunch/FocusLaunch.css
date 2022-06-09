@@ -1,0 +1,16 @@
+.focus-launch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    width: 600px;
+    max-width: 95vw;
+    margin: 50px 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.launch-image {
+    height: 150px;
+    width: 150px;
+}
