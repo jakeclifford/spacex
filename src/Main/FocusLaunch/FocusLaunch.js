@@ -5,7 +5,6 @@ import "./FocusLaunch.css"
 
 export default function FocusEvent(props){
     const { launch } = props
-    console.log(launch)
 
     const [countdownTime, setCountdownTime] = useState(countdown(launch.date_utc))
 
