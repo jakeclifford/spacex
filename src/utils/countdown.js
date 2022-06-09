@@ -20,6 +20,10 @@ export function countdown(launchdate){
 
     // If the count down is finished, write some text
 
+    if (distance < 0) {
+      return null;
+    }
+
     return countdownTime
 
 }
